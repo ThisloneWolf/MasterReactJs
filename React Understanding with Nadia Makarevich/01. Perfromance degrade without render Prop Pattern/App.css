@@ -1,0 +1,27 @@
+.movable-block {
+  position: fixed;
+  left: 27rem;
+  background: salmon;
+  width: 5rem;
+  height: 3.2rem;
+  border: '1px solid black';
+}
+
+.scrollable-block {
+  width: 30rem;
+  height: 10rem;
+  overflow: scroll;
+  position: relative;
+  z-index: 1;
+  border: 1px solid red;
+  margin: 0 auto;
+  padding: 10px ;
+}
+
+.bunch-of-stuff {
+  background: lightblue;
+  border: 1px solid rgba(blue, 0.3);
+  padding: 1rem;
+  margin: 1rem 0;
+  min-height: 30rem;
+}
